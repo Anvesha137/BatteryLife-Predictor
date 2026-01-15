@@ -1,0 +1,73 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+ENV/
+environment/
+env/
+.venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python packaging
+*.egg-info/
+dist/
+build/
+
+# Logs
+*.log
+logs/
+
+# Streamlit cache
+.streamlit/
+
+# VSCode settings
+.vscode/
+
+# IDE
+.idea/
+.vs/
+
+# Model files
+*.pkl
+*.joblib
+*.model
+
+# Dataset and data files
+cleaned_dataset/
+*.csv
+*.xlsx
+*.xls
+
+# Local configuration files
+config.ini
+.env
+.local
+.env.example
+
+# Temporary files
+*.tmp
+*.temp
+
+# Pytest
+pytest_cache/
+
+# Coverage reports
+htmlcov/
+.coverage*
+
+# Processed data
+processed_data/
+temp_data/
+
+# Distribution artifacts
+*.whl
+*.egg
