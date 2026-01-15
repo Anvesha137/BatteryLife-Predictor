@@ -1,4 +1,4 @@
-# EV Battery Remaining Useful Life (RUL) Prediction System
+<img width="1802" height="752" alt="image" src="https://github.com/user-attachments/assets/5a87c281-70f2-4f17-9142-332e5d1e1d33" /># EV Battery Remaining Useful Life (RUL) Prediction System
 
 This project provides a machine learning-based solution for predicting the Remaining Useful Life (RUL) of electric vehicle (EV) batteries. It includes data processing pipelines, a trained model, API endpoints, and a dashboard for visualization.
 
@@ -112,6 +112,11 @@ Input CSV should contain the following columns:
 - `Voltage_load`: Load voltage
 - `Time`: Timestamp
 
+<img width="1783" height="766" alt="image" src="https://github.com/user-attachments/assets/51f338c3-a3a1-44dd-991e-e4c073499e02" />
+<img width="1797" height="728" alt="image" src="https://github.com/user-attachments/assets/d41416e8-1ac2-4a24-b536-db1170bdabbe" />
+<img width="1750" height="716" alt="image" src="https://github.com/user-attachments/assets/7655ea44-9f12-4476-9597-fe4a4e59973a" />
+<img width="1802" height="752" alt="image" src="https://github.com/user-attachments/assets/e008b8a4-d943-4040-88e3-7ab3c79f2e40" />
+
 ## Model Performance
 
 The XGBoost model is trained with the following configuration:
@@ -127,6 +132,3 @@ The XGBoost model is trained with the following configuration:
 3. Make your changes
 4. Submit a pull request
 
-## License
-
-This project is licensed under the MIT License.
