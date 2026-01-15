@@ -1,4 +1,4 @@
-<img width="1802" height="752" alt="image" src="https://github.com/user-attachments/assets/5a87c281-70f2-4f17-9142-332e5d1e1d33" /># EV Battery Remaining Useful Life (RUL) Prediction System
+# EV Battery Remaining Useful Life (RUL) Prediction System
 
 This project provides a machine learning-based solution for predicting the Remaining Useful Life (RUL) of electric vehicle (EV) batteries. It includes data processing pipelines, a trained model, API endpoints, and a dashboard for visualization.
 
