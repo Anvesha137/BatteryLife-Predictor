@@ -1,0 +1,1 @@
+web: uvicorn battery_rul_api_extended:app --host=0.0.0.0 --port=${PORT:-8000}
