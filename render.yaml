@@ -1,0 +1,16 @@
+# Render Deployment Configuration
+
+service:
+  name: BatteryLife-Predictor
+  type: web
+  env: python
+  region: virginia
+  plan: free
+  branch: main
+  
+  buildCommand: pip install -r requirements.txt
+  startCommand: uvicorn battery_rul_api_extended:app --host 0.0.0.0 --port $PORT
+  
+  envVars:
+    - key: PYTHON_VERSION
+      value: 3.11.6
